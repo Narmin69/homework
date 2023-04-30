@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.values{
+    display: flex;
+    justify-content:center;
+    padding: 8px;
+    margin-top:8px ;
+    
+}
+.simple {
+    display: flex;
+    justify-content:center;
+}
+button{
+    border: 1px solid grey;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.Reset{
+    background-color: orangered;
+}
+button{
+    padding: 8px ;
+    margin-top:8px ;
+
+}
+.value1, 
+.value2{
+    padding: 8px ;
+    margin-top:8px ;
+}
+.result{
+    background-color: black;
+    color: white;
+    text-align: right;
+    border-radius: 5px;
+}
