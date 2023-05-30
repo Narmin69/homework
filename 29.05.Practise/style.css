@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  list-style: none;
+}
+header {
+  padding: 10px 0;
+}
+header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header nav ul {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+header ul li a {
+  color: black;
+  text-decoration: none;
+}
+.contact-us {
+  border: none;
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+  padding: 4px 8px;
+}
+.fa-bars {
+  display: none;
+}
+.export-section {
+  background-color: rgb(0, 0, 0, 0.7);
+  height: 100vh;
+}
+.learn-form {
+  background-image: url(./images/hero_1.jpg);
+  width: 100%;
+  height: 100vh;
+  color: white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#learn {
+  padding-top: 180px;
+  width: 50%;
+}
+#sign {
+  padding: 50px 80px;
+  background-color: white;
+  color: black;
+  width: 50%;
+  margin-top: 150px;
+  border-radius: 10px;
+}
+.admission {
+  color: white;
+  border: none;
+  background-color: rgb(105, 105, 201);
+  padding: 5px 8px;
+  border-radius: 15px;
+}
+.section-1 {
+  display: flex;
+  column-gap: 50px;
+}
+.programs {
+  align-items: center;
+  text-align: center;
+  
+}
+.programs h1::after{
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: red;
+    width: 300px;
+    position: absolute;
+    left:500px
+}
+.lorem{
+    max-width: 500px;
+    margin: auto;
+}
+@media only screen and (max-width: 992px) {
+  .fa-bars {
+    display: block;
+    color: black;
+  }
+  header nav {
+    display: none;
+    
+  }
+  header nav .show ul li a{
+display: block;
+  }
+  header nav .show{
+    display: block;
+  }
+  .section-1 {
+    flex-direction: column;
+  }
+  #learn {
+    width: 100%;
+    padding-top: 0px;
+  }
+  #sign {
+    width: 100%;
+    padding: 0;
+  }
+}
